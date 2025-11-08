@@ -191,7 +191,29 @@ books = {"Alximik": "Paulo Koelyo", "Shaytanat": "Tohir Malik", "1984": "George 
 books.update({"O‘tkan kunlar": "Abdulla Qodiriy"})
 print("1-vazifa natijasi:", books)
 
+books['Alximik'] = "Paulo Coelho"
+result2 = books
+print("2-vazifa natijasi:", result2)
 
+del books['1984']
+print("3-vazifa natijasi:", books)
+
+result4 = len(books)
+print("4-vazifa natijasi:", result4)
+
+result5 = books.values()
+print("5-vazifa natijasi:", result5)
+
+result6 = sorted(books.keys())
+print("6-vazifa natijasi:", result6)
+
+result7 = books.get('Shaytanat')
+print("7-vazifa natijasi:", result7)
+
+result8 = len(books)
+print("8-vazifa natijasi:", result8)
+
+"O‘tkan kunlar" in books
 
 
 
