@@ -186,81 +186,93 @@
 # print("10-vazifa natijasi:", cities)
 
 # 4-Masala: Kitoblar va mualliflar
-books = {"Alximik": "Paulo Koelyo", "Shaytanat": "Tohir Malik", "1984": "George Orwell"}
+# books = { "Alximik": "Paulo Koelyo",  "Shaytanat": "Tohir Malik",  "1984": "George Orwell"}
+#
+# # 1. Yangi kitob qo‘shish
+# books.update({"O‘tkan kunlar": "Abdulla Qodiriy"})
+# print("1-vazifa natijasi:", books)
+#
+# # 2. 'Alximik' muallifini o‘zgartirish
+# books['Alximik'] = "Paulo Coelho"
+# print("2-vazifa natijasi:", books)
+#
+# # 3. '1984' kitobini o‘chirish
+# del books['1984']
+# print("3-vazifa natijasi:", books)
+#
+# # 4. Kitoblar sonini topish
+# result4 = len(books)
+# print("4-vazifa natijasi:", result4)
+#
+# # 5. Mualliflar ro‘yxatini chop etish
+# result5 = books.values()
+# print("5-vazifa natijasi:", result5)
+#
+# # 6. Kitob nomlarini alifbo tartibida chop etish
+# result6 = sorted(books.keys())
+# print("6-vazifa natijasi:", result6)
+#
+# # 7. 'Shaytanat' muallifini chop etish
+# result7 = books.get('Shaytanat')
+# print("7-vazifa natijasi:", result7)
+#
+# # 8. Dictionary uzunligini topish
+# result8 = len(books)
+# print("8-vazifa natijasi:", result8)
+#
+# # 9. 'O‘tkan kunlar' mavjudligini tekshirish
+# result9 = "O‘tkan kunlar" in books
+# print("9-vazifa natijasi:", result9)
+#
+# # 10. Dictionary-ni tozalash
+# books.clear()
+# print("10-vazifa natijasi:", books)
 
-books.update({"O‘tkan kunlar": "Abdulla Qodiriy"})
-print("1-vazifa natijasi:", books)
+# 5-Masala: Valyuta kurslari
+# 5-Masala: Valyuta kurslari
 
-books['Alximik'] = "Paulo Coelho"
-result2 = books
-print("2-vazifa natijasi:", result2)
-
-del books['1984']
-print("3-vazifa natijasi:", books)
-
-result4 = len(books)
-print("4-vazifa natijasi:", result4)
-
-result5 = books.values()
-print("5-vazifa natijasi:", result5)
-
-result6 = sorted(books.keys())
-print("6-vazifa natijasi:", result6)
-
-result7 = books.get('Shaytanat')
-print("7-vazifa natijasi:", result7)
-
-result8 = len(books)
-print("8-vazifa natijasi:", result8)
-
-"O‘tkan kunlar" in books
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Boshlang‘ich dictionary
+# currencies = {"USD": 12600, "EUR": 13500, "RUB": 140}
+#
+# # 1. "GBP" ni 16000 bilan qo‘shish
+# currencies.update({"GBP": 16000})
+# print("1-vazifa natijasi:", currencies)
+#
+# # 2. "USD" kursini 12700 ga o‘zgartirish
+# currencies["USD"] = 12700
+# print("2-vazifa natijasi:", currencies)
+#
+# # 3. "RUB" ni o‘chirish
+# del currencies["RUB"]
+# print("3-vazifa natijasi:", currencies)
+#
+# # 4. Kurslar yig‘indisini topish
+# result4 = sum(currencies.values())
+# print("4-vazifa natijasi:", result4)
+#
+# # 5. Eng yuqori kursni topish
+# result5 = max(currencies, key=currencies.get)
+# print("5-vazifa natijasi:", result5)
+#
+# # 6. Eng past kursni topish
+# result6 = min(currencies, key=currencies.get)
+# print("6-vazifa natijasi:", result6)
+#
+# # 7. Valyutalar ro‘yxatini chop etish
+# result7 = currencies.keys()
+# print("7-vazifa natijasi:", result7)
+#
+# # 8. Kurslar ro‘yxatini tartib bilan chop etish
+# result8 = sorted(currencies.values())
+# print("8-vazifa natijasi:", result8)
+#
+# # 9. "EUR" kursini chop etish
+# result9 = currencies.get("EUR")
+# print("9-vazifa natijasi:", result9)
+#
+# # 10. Dictionary bo‘sh yoki yo‘qligini tekshirish
+# result10 = len(currencies) == 0
+# print("10-vazifa natijasi:", result10)
 
 
 
